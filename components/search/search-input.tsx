@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { Input } from './ui/input';
+import { Input } from '@/components/ui/input';
 
 const AdminSearch = () => {
   const pathname = usePathname();
